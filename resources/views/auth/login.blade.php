@@ -105,7 +105,7 @@
                         <a href="{{ route('google.login') }}" class="hover:bg-gray-100 duration-300 text-gray-500 border-custom-input rounded-xl w-1/3 py-3 flex items-center justify-center">
                             <img src="{{ asset('assets/images/loginreg/Icon awesome-google.svg') }}" alt="Google Icon" class="w-5 h-5">
                         </a>
-                        <a href="#" class="hover:bg-gray-100 duration-300 text-gray-500 border-custom-input rounded-xl w-1/3 py-3 flex items-center justify-center">
+                        <a href="{{ route('twitter.login') }}" class="hover:bg-gray-100 duration-300 text-gray-500 border-custom-input rounded-xl w-1/3 py-3 flex items-center justify-center">
                             <img src="{{ asset('assets/images/loginreg/Icon awesome-twitter.svg') }}" alt="Twitter Icon" class="w-5 h-5">
                         </a>
                     </div>
