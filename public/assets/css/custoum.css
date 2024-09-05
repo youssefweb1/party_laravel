@@ -1,0 +1,417 @@
+/* 1. General Styles */
+body {
+  font-family: "Inter", sans-serif !important;
+  background-color: #F9F9F9 !important;
+}
+
+ul, ul li, li {
+  list-style: none !important;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: .5px solid  !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #9ca3af !important;
+}
+
+[type=checkbox], [type=radio] {
+  color: #101010 !important;
+}
+
+/* 2. Custom Colors and Backgrounds */
+.text-custom-orange {
+  color: #f25510;
+}
+
+.bg-custom-orange {
+  background-color: #f25510 !important;
+}
+
+.text-red-500 {
+  color: #f25510 !important;
+}
+
+.bg-custom-body {
+  background-color: #F3F3F3 !important;
+}
+
+.bg-custoum-orange-50 {
+  background-color: #fff8f3 !important;
+}
+
+.text-custom-blue {
+  color: #5965B1 !important;
+}
+
+.bg-custom-blue {
+  background-color: #5965B1 !important;
+}
+
+/* 3. Custom Borders */
+.border-blue-600 {
+  border-color: #eeeeee00 !important;
+}
+
+.border-custom-orange-upload {
+  border: 1px solid #f25510 !important;
+}
+
+.border-custom-orange {
+  border: 1px solid #F3CA9C !important;
+}
+
+.border-custom-input {
+  border: 1px solid #eeeeee !important;
+}
+
+.border-custom-blue {
+  border: 1px solid #5965B1 !important;
+}
+
+/* 4. Tab Styles */
+.tab-button {
+  border-bottom-width: 2px;
+  border-color: transparent;
+  color: gray;
+  background-color: transparent;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.tab-button.active {
+  color: #f25510 !important;
+  border-color: #f25510 !important;
+}
+
+.tab-button:hover {
+  color: #f25510 !important;
+  border-color: #f25510 !important;
+}
+
+/* 5. Button and Hover Effects */
+.bg-custom-orange:hover {
+  background-color: black !important;
+  color: white !important;
+  transition: background-color 0.5s ease !important;
+  box-shadow: none !important;
+  -webkit-transition: background-color 0.5s ease !important;
+  -moz-transition: background-color 0.5s ease !important;
+  -ms-transition: background-color 0.5s ease !important;
+  -o-transition: background-color 0.5s ease !important;
+}
+
+.hover-blue:hover {
+  background-color: #5965B1 !important;
+  color: white !important;
+  transition: .3s;
+}
+
+/* 6. Form Styles */
+.border-rad-custom-input {
+  border-radius: 0 13px 13px 0 !important;
+  -webkit-border-radius: 0 13px 13px 0 !important;
+  -moz-border-radius: 0 13px 13px 0 !important;
+  -ms-border-radius: 0 13px 13px 0 !important;
+  -o-border-radius: 0 13px 13px 0 !important;
+}
+
+.text-login {
+  color: #4f4f4f !important;
+}
+
+#email, #password {
+  border-left: none !important;
+}
+
+.border-span-input-log {
+  border-right: none !important;
+}
+
+
+
+/* 7. Custom Gradients and Shadows */
+.bg-gradient-custom {
+  background: linear-gradient(to right, #f25510, #f25510, #f25510);
+}
+
+.shadow-custom {
+  box-shadow: 0 4px 6px rgba(242, 85, 16, 0.5) !important;
+}
+
+.focus-ring-custom {
+  box-shadow: 0 0 0 4px rgba(242, 85, 16, 0.3);
+}
+
+.gradient-box {
+  background: linear-gradient(to right, #5965b1, #f25510);
+}
+
+/* 8. Text Wrapping */
+p, span {
+  text-wrap: balance !important;
+}
+
+.text-wrap {
+  overflow-wrap: break-word;
+}
+
+/* 9. Layout Styles */
+.top-cat, .wish {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.wish {
+  margin-top: -63px;
+}
+
+.middle {
+  width: 80%;
+}
+
+.rightsec {
+  width: 25%;
+}
+
+/* 10. Cursor Styles */
+a {
+  cursor: pointer !important;
+}
+
+/* 11. Custom Ring */
+.custom-ring {
+  --tw-ring-color: #FFA100 !important;
+}
+
+/* 12. Aside Styles */
+aside {
+  left: unset !important;
+}
+
+/* 13. Form Focus Styles */
+[multiple]:focus, [type=date]:focus, [type=datetime-local]:focus, [type=email]:focus, [type=month]:focus,
+[type=number]:focus, [type=password]:focus, [type=search]:focus, [type=tel]:focus, [type=text]:focus, [type=time]:focus,
+[type=url]:focus, [type=week]:focus, select:focus, textarea:focus {
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: none !important;
+  --tw-ring-color: none !important;
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow: none !important;
+  border-color: none !important;
+  box-shadow: none !important;
+  outline: 1px solid transparent;
+  outline-offset: 1px;
+}
+
+/* 14. Custom Switch Styles */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 5px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(20px);
+  background-color: #fff;
+}
+
+.switch input:checked + .slider {
+  background-color: #f25510;
+}
+
+.switch input:not(:checked) + .slider:before {
+  background-color: #fff;
+}
+
+.switch input:not(:checked) + .slider {
+  background-color: #F0F0F2;
+}
+
+/* 15. Miscellaneous */
+.wpro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rightsec22 {
+  display: none !important;
+}
+
+/* 16. Media Queries (Ranked from highest to lowest priority) */
+
+/* Rank 1: Core responsive layout changes */
+@media (max-width: 1199px) {
+  .allmaindivs {
+    flex-direction: column !important;
+  }
+
+  .allmaindivs2 {
+    flex-direction: column-reverse !important;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .middle, .rightsec {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .rightsec {
+    margin-top: 20px !important;
+  }
+
+  .wpro {
+    flex-direction: column;
+  }
+
+  .wish {
+    width: 100% !important;
+    margin-top: 43px;
+  }
+
+  .wiiid {
+    width: 100% !important;
+  }
+}
+
+/* Rank 2: Tablet and smaller desktop adjustments */
+@media (min-width: 750px) and (max-width: 900px) {
+  .gradient-box, .allmaindivs {
+    flex-direction: column !important;
+  }
+
+  .allmaindivs2 {
+    flex-direction: column-reverse !important;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .middle {
+    width: 100%;
+  }
+}
+
+/* Rank 3: Mobile-specific styles */
+@media (max-width: 767px) {
+  .main-content {
+    padding-left: 3px !important;
+  }
+
+  .profileuserimage {
+    justify-content: space-between;
+  }
+
+  .formbord {
+    border-top: 1px solid #E7E7E7 !important;
+    padding-top: 20px;
+  }
+
+  .right-contact {
+    padding-bottom: 20px;
+  }
+
+  .titleproh {
+    display: none !important;
+  }
+
+  .wish {
+    margin-top: 43px;
+  }
+
+  .custoumres {
+    flex-direction: column-reverse !important;
+  }
+
+  .gradient-box {
+    width: 100% !important;
+  }
+}
+
+/* Rank 4: Larger screen layout adjustments */
+@media (min-width: 768px) {
+  .top-cat, .wish {
+    width: 33.3333%;
+    padding-left: 1.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .formbord {
+    border-right: 1px solid #E7E7E7 !important;
+  }
+
+  .right-contact {
+    padding-left: 20px;
+  }
+}
+
+/* Rank 5: Specific component adjustments */
+@media (max-width: 900px) {
+  .prodt {
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+}
+
+/* Rank 6: Very specific layout tweaks */
+@media (max-width: 1200px) {
+  .rightsec22 {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .rightsec11 {
+    display: none !important;
+  }
+}
+
+/* Rank 7: Small screen typography adjustments */
+@media (max-width: 350px) {
+  .titles {
+    flex-direction: column !important;
+    align-items: start !important;
+    justify-content: start !important;
+    gap: 20px;
+  }
+}
+
